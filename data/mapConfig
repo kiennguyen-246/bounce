@@ -1,0 +1,151 @@
+4
+8
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+     B    BB   BBBBBB          BBB         BB         BBB                  BBB      BB  L   BB               BB         BB         B
+    BB    BBc  BBBBBB          BBB         +          BB                    BB      BB      BB               BB         BB         B
+   B B    BB   BBBBBB   BB     BBB         r          BB         C          BB  BB  BB  BB  BB  BB           BB         BB         B
+  B  B    BB   BBBBBB   BB     BBB  BBBB  BBBB  BBBB  BB                    BB  BB  BB  BB  BB  BB       BBe-BBe-BB     BB         B
+     B    BB       +    BB          BB     BB     BB                            BB  +   BB  +   BB    BBTBB  C   BBTBB  ##         B
+  BBBBBBB BB       r    BB T        BB  T     T   BB        T  T   T   T        BB  r   BB  r   BB    BBBBB      BBBBB  G#         B
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+0
+0
+
+22
+                                                                                                                        BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+                                                                                                                        BBC                   BB         B
+                                                                                                                        BB          +         BB         B
+                                                                                                                        BB          R         BB         B
+                                                                                                                        BBBBBBBBBBBBBB        BB         B
+                                                                                                                        BB                    ##         B
+                                                                                                                        BB                    G#         B
+                                                                                                                        BB   BBBBBBBBBBBBBBBBBBB         B
+                                                                                                                        BB                    BB         B
+                                                                                                                        BB                    BB         B
+                                                                                                                        BBBB      BB  BB      BB         B
+                                                                                                                        BBC      BB    BB     BB         B
+                                                                                                                        BB      BB      BB    BB         B
+                                                                                                                        BB     BB   T    BB   BB         B
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBE-BB         B
+  BBBBBBB BB                    +   BB      BB     +                        BB        C           BB         BB         +   BB         BB     BB         B
+  T     B BB      c             R   BB      BB     R                        BB                    BB         BB         r   BB         BB     BB         B
+        B BB             BBBBBBBBB  BB  BB         BBBBB                    BB        XZ          BB         +          BB  BB    BB   BB  BBBBB         B
+  BBBBBBB BB             BB     BB  BB  BB         BBBBB                    BB       XBBZ         BB         R          BB  BB  BBBB          BB         B
+  B     T BB             BB L           BB         BBBBB                    +       XBBBBZ        +          BB         BB      L BB          BB         B
+  BBBBBBB BB           T BB             BBP        BBBBB                    R      XBBBBBBZ       R          BB         BB        BB        T BB         B
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDDDDDDDBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+0
+6
+12 17 12 21 17
+14 17 14 21 17
+59 17 59 21 17
+65 17 65 21 17
+71 17 71 21 17
+103 17 103 21 17
+
+36
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+  BBBBBBB BBT T   L BBC                             VBBB            +      BBBN    VBBBBBBBN         C         DD                           L BB
+        B BB        BB                               VBB     c      r      BBN      VBBBBBN                               BB  BB              BB
+  BBBBBBB BB        BBZ        XBB                    +             XZ     +             +                                          BB        BB
+    T   B BB        BBBZ      XBBB                    R            XBB     r             r                                  BB            BB  BB
+    P   B BB        BBBBZ    XBBBB                   XBB          XB##     BBZ      XBBBBBZ     XBB        BBBBBBBBBBBBBBB       BB      BB   BB
+  BBBBBBB BB        BBBBBZ  XBBBBB                  XBBB         XBBG#     BBBZ    XBBBBBBBZ   XBBBB000000BBBBBBBBBBBBBBBB          BBTT    T BB
+BBBBBBBBBBBBBBB     BBBBBBE-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB0000BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+          BB                             BB    BB             T     T   VBBBBBBNY VBBBBBBBBBBBBBBBBBB0000BB             BB                      
+          BB                             BB    BB                        VBBBBN    VBBBBBBBBBBBBBBBBB0000BB  BB 0  BB   BB                      
+          BB    BB                       +     +                          VBBB      BBBBBBBBBBBBBBBBB0000BB     0       BB                      
+          BB    T   BB0000000000BBBB     R     r      BBZ                  VBB      BBBBBBBBBBBBBBBBB0000BB    00  000  BB                      
+          BB        BBB00000000BBBBB     BB    BB     BBBZ                          BBBBBBBBBBBBBBBBB0000BB BB     0 0  BB                      
+          BB        BBBB000000BBBBBB     BB    BBT   TBBBBZ      S                  BBBBBBBBBBBBBBBBB0000BB        0 0  BB                      
+          BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB    BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBZ     BBBBBBBBBBBBBBBBB0000BB     BB      BB                      
+                                BB                    BB                    BBB     BBBBBBBBBBBBBBBBB0000BBBZ      XBBBBBB                      
+                                BB                    BB                    BBB     BBBBBBBBBBBBBBBBB0000BBBN       BBBBBB                      
+                                BBDD                  BB                    BBB     BBBBBBBBBBBBBBBBB0000BBN        VBBBBB                      
+                                BBIIIIIIIIIIIIIIII    BB                    BBB     BBBBBBBBBBBBBBBBB0000BBZ         VBBBB                      
+                                BBC                   BB                    BBB     BBBBBBBBBBBBBBBBB0000BBBZ         VBBB                      
+                                BB                    BB                    BBB     BBBBBBBBBBBBBBBBB0000BBBBZ         VBB                      
+                                BBBBBBBBBBBBBBBBBBBBBBBB                    BBB     BBBBBBBBBBBBBBBBB0000BBBBB         XBB                      
+                                                                            BBB C   BBBBBBBBBBBBBBBBB0000BBBBBBZ      XBBB                      
+                                                                            BBB     BBBBBBBBBBBBBBBBB0000BBBBBBN      VBBB                      
+                                                                            BBB     BBBBBBBBBBBBBBBBB0000BBBBBN        VBB                      
+                                                                            BBB C   BBBBBBBBBBBBBBBBB0000BBBBN         XBB                      
+                                                                            BBB     BBBBBBBBBBBBBBBBB0000BBBN         XBBB                      
+                                                                            BBB C   BBBBBBBBBBBBBBBBB0000BBN         XBBBB                      
+                                                                            BBB     BBBBBBBBBBBBBBBBB0000BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+                                                                            BBB     BBBBBBBBBBBBBBBBB0000BB             BB                    BB
+                                                                            BBB     BBBBBBBBBBBBBBBBB0000BB             BB                 C  BB
+                                                                            BBB     BBBBBBBBBBBBBBBBB0000BB             BB                    BB
+                                                                            BBB     BBBBBBBBBBBBBBBBB0000BBBBBBBBBBBBBBBBB                    BB
+                                                                            BBB     +00000000000000000000000000000000000+           T         BB
+                                                                            BBB     r00000000000000000000000000000000000R           BB      P BB
+                                                                            BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+1
+10
+48 3 48 7 6
+46 3 46 7 5
+44 3 44 7 5
+42 3 42 7 4
+40 3 40 7 3
+38 3 38 7 4
+36 10 36 14 10
+107 31 118 31 107
+126 31 126 35 31
+110 17 110 22 17
+
+29
+                                BBBBBBBBBBBBBBBBBBBBBBBB                                                                                                  
+                                BBBBN              BBBBB                                                                                                  
+                                BBBB               BBBBB                                                                                                  
+                                BB##               BBBBB                                                                                                  
+                                BBG#               BBBBB                                                                                                  
+                                BBBBZ              BBBBB                                                                                                  
+                                BBBBBBBBBBBB          BB                                                                                                  
+                                BBBBBBBBBBBB          BB                                                                                                  
+                                BB    C               BB                                                                                                 
+                                BB                    BB                                    X   Z                                                         
+                                BB                    BB                XZ                 X     Z                                                        
+                                BB                    BB               X  Z              BBBBBBBBBBBBBBBBB                                                             
+                                BB              T     BB              X    Z                                                                             
+                                BB              BBIIIIBB             X      Z                                                                             
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB                    BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB                                
+  B    Bt BBL                                                     +                 +    +                +             BB                                
+  B    B tBB                                                      r                 r    r                r             BB                                
+  BBBBBBt BBe-                         XIIIIZ                  BBZ  XBB             VBBBBN                              BB                                
+    T  B tBBC                   BBBBBBBBBBBBBZ              X  BBBZXBBB  Z           VBBN         BB      BB        C   BB                                
+       Bt BB                    BBBBBBBBBBBBBBZ            XB  BBBBBBBB  BZ     XT Z      XT Z    BB      BB    BB      BB                                
+       B tBB                    BBBBBBBBBBBBBBBZ          XBB  BB    BB  BBZ   XBBBBZ T  XBBBBZ   BB  T   BB    BB  DD  BB                                
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB    BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+                                BB    BB        BB                                               VBBBB  BBBN c  VBBB  BBBBC                 C BB          
+                                BB L  BB        BB                                                BBBB  BBN      VBB  BBBB                    BB          
+                                BB    BB        BB    BB                       II  II    II  II   BBBB  BN  XBBZ  VB  BBBBBBBB          BBBBBBBB          
+                                BB    BB        BB    BB    X    Z X   Z        IIII  C   IIII    BBBB  N  XBBBBZ  V  BBBBBBBN          VBBBBBBB          
+                                BB                    BB   XB    BZB   BZ       IIII      IIII            XBBBBBBZ          +            +  P BB          
+                                BB                    BB     IIII   III         IIIIIIIIIIIIII           XBBBBBBBBZ         R            R  P BB          
+                                BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+0
+10
+41 24 41 28 24
+43 24 43 28 28
+45 24 45 28 24
+102 24 102 28 24
+116 24 116 28 24
+128 24 128 28 24
+132 24 132 28 28
+71 17 71 21 21
+61 17 61 21 21
+16 21 30 21 16
+
+
+
+Config file instruction:
+- The first line contains N - the number of levels
+- For each level:
+    + The first line contains H - the height of the level, calculated in tiles
+    + The H next lines contain the encoded map for the level (Read levelMap.h for more information)
+    + The (H + 2)-th line contains a single number 0 or 1, which indecates that tha ball is small or large when being spawned
+    + The (H + 3)-th line contains S - the number of spiders
+    + The i-th of the next S lines contains 4 number indicating the movement of the spider
+        * The first 2 numbers indicate the lower range of the spider's movement
+        * The next 2 numbers indicate the upper range of the spider's movement
+        * The last number indicates the starting position of the spider's movement
