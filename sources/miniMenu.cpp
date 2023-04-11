@@ -90,24 +90,24 @@ void gameOverMenu::render(SDL_Renderer* renderer)
     
     int curRenderPosY = GAME_OVER_PROMPT_RENDER_POS_Y;
     LTexture curTextTexture;
-    renderText(renderer, curTextTexture, &GAME_OVER_PROMPT[isVictory][0], GAME_OVER_PROMPT_RENDER_POS_X, GAME_OVER_PROMPT_RENDER_POS_Y, GAME_OVER_PROMPT_FONT_SIZE, &CALIBRI_BOLD_FONT_PATH[0]);
-    curRenderPosY += curTextTexture.getHeight() + 10;
+    renderText(renderer, curTextTexture, &GAME_OVER_PROMPT[isVictory][0], GAME_OVER_PROMPT_RENDER_POS_X, GAME_OVER_PROMPT_RENDER_POS_Y, GAME_OVER_PROMPT_FONT_SIZE, &DOSIS_BOLD_FONT_PATH[0]);
+    curRenderPosY += curTextTexture.getHeight() + 5;
 
     if (!isVictory) mYellowSad.render(renderer, GAME_OVER_PROMPT_RENDER_POS_X, curRenderPosY);
     else mYellowSunglasses.render(renderer, GAME_OVER_PROMPT_RENDER_POS_X, curRenderPosY);
-    curRenderPosY += mYellowSad.getHeight() + 10;
+    curRenderPosY += mYellowSad.getHeight() + 5;
 
-    renderText(renderer, curTextTexture, "Anyway, your score is: ", GAME_OVER_PROMPT_RENDER_POS_X, curRenderPosY, GAME_OVER_PROMPT_FONT_SIZE, &CALIBRI_BOLD_FONT_PATH[0]);
-    curRenderPosY += curTextTexture.getHeight() + 10;
+    renderText(renderer, curTextTexture, "Anyway, your score is: ", GAME_OVER_PROMPT_RENDER_POS_X, curRenderPosY, GAME_OVER_PROMPT_FONT_SIZE, &DOSIS_BOLD_FONT_PATH[0]);
+    curRenderPosY += curTextTexture.getHeight() + 5;
 
-    renderText(renderer, curTextTexture, &std::to_string(mScore)[0], GAME_OVER_PROMPT_RENDER_POS_X, curRenderPosY, GAME_OVER_PROMPT_FONT_SIZE_LARGE, &CALIBRI_BOLD_FONT_PATH[0]);
-    curRenderPosY += curTextTexture.getHeight() + 10;
+    renderText(renderer, curTextTexture, &std::to_string(mScore)[0], GAME_OVER_PROMPT_RENDER_POS_X, curRenderPosY, GAME_OVER_PROMPT_FONT_SIZE_LARGE, &DOSIS_BOLD_FONT_PATH[0]);
+    curRenderPosY += curTextTexture.getHeight() + 5;
 
     int oldHighScore = getHighScore();
     if (mScore >= oldHighScore)
     {
-        renderText(renderer, curTextTexture, "NEW HIGH SCORE!", GAME_OVER_PROMPT_RENDER_POS_X, curRenderPosY, GAME_OVER_PROMPT_FONT_SIZE, &CALIBRI_BOLD_FONT_PATH[0]);
-        curRenderPosY += curTextTexture.getHeight() + 10;
+        renderText(renderer, curTextTexture, "NEW HIGH SCORE!", GAME_OVER_PROMPT_RENDER_POS_X, curRenderPosY, GAME_OVER_PROMPT_FONT_SIZE, &DOSIS_BOLD_FONT_PATH[0]);
+        curRenderPosY += curTextTexture.getHeight() + 5;
         reloadHighScore(mScore);
 
     }
@@ -151,14 +151,14 @@ void highScoreMenu::render(SDL_Renderer* renderer)
     
     int curRenderPosY = HIGH_SCORE_PROMPT_RENDER_POS_Y;
     LTexture curTextTexture;
-    renderText(renderer, curTextTexture, "High score: ", HIGH_SCORE_PROMPT_RENDER_POS_X, curRenderPosY, HIGH_SCORE_PROMPT_FONT_SIZE, &CALIBRI_BOLD_FONT_PATH[0]);
-    curRenderPosY += curTextTexture.getHeight() + 10;
+    renderText(renderer, curTextTexture, "High score: ", HIGH_SCORE_PROMPT_RENDER_POS_X, curRenderPosY, HIGH_SCORE_PROMPT_FONT_SIZE, &DOSIS_BOLD_FONT_PATH[0]);
+    curRenderPosY += curTextTexture.getHeight() + 5;
 
-    renderText(renderer, curTextTexture, &std::to_string(getHighScore())[0], HIGH_SCORE_PROMPT_RENDER_POS_X, curRenderPosY, HIGH_SCORE_PROMPT_FONT_SIZE_LARGE, &CALIBRI_BOLD_FONT_PATH[0]);
-    curRenderPosY += curTextTexture.getHeight() + 10;
+    renderText(renderer, curTextTexture, &std::to_string(getHighScore())[0], HIGH_SCORE_PROMPT_RENDER_POS_X, curRenderPosY, HIGH_SCORE_PROMPT_FONT_SIZE_LARGE, &DOSIS_BOLD_FONT_PATH[0]);
+    curRenderPosY += curTextTexture.getHeight() + 5;
 
     mYellowSunglasses.render(renderer, HIGH_SCORE_PROMPT_RENDER_POS_X, curRenderPosY);
-    curRenderPosY += mYellowSunglasses.getHeight() + 10;
+    curRenderPosY += mYellowSunglasses.getHeight() + 5;
 
     mReturnButton.render(renderer);
 }
@@ -206,11 +206,11 @@ void pauseMenu::render(SDL_Renderer* renderer)
     
     int curRenderPosY = PAUSE_PROMPT_RENDER_POS_Y;
     LTexture curTextTexture;
-    renderText(renderer, curTextTexture, "GAME PAUSED", PAUSE_PROMPT_RENDER_POS_X, curRenderPosY, PAUSE_PROMPT_FONT_SIZE, &CALIBRI_BOLD_FONT_PATH[0]);
-    curRenderPosY += curTextTexture.getHeight() + 10;
+    renderText(renderer, curTextTexture, "GAME PAUSED", PAUSE_PROMPT_RENDER_POS_X, curRenderPosY, PAUSE_PROMPT_FONT_SIZE, &DOSIS_BOLD_FONT_PATH[0]);
+    curRenderPosY += curTextTexture.getHeight() + 5;
 
     mYellowNerd.render(renderer, PAUSE_PROMPT_RENDER_POS_X, curRenderPosY);
-    curRenderPosY += mYellowNerd.getHeight() + 10;
+    curRenderPosY += mYellowNerd.getHeight() + 5;
 
     mResumeButton.render(renderer);
     mMainMenuButton.render(renderer);
@@ -314,17 +314,17 @@ void instructionMenu::render(SDL_Renderer* renderer)
     int curRenderPosY = INSTRUCTION_TITLE_RENDER_POS_Y;
     LTexture curTextTexture;
 
-    renderText(renderer, curTextTexture, &mInstructionText[pageId][0][0], INSTRUCTION_TITLE_RENDER_POS_X, curRenderPosY, INSTRUCTION_TITLE_FONT_SIZE, &CALIBRI_BOLD_FONT_PATH[0]);
-    curRenderPosY += curTextTexture.getHeight() + 10;
+    renderText(renderer, curTextTexture, &mInstructionText[pageId][0][0], INSTRUCTION_TITLE_RENDER_POS_X, curRenderPosY, INSTRUCTION_TITLE_FONT_SIZE, &DOSIS_BOLD_FONT_PATH[0]);
+    curRenderPosY += curTextTexture.getHeight() + 5;
     for (int i = 1; i < mInstructionText[pageId].size(); i ++)
     {
-        renderText(renderer, curTextTexture, &mInstructionText[pageId][i][0], INSTRUCTION_TEXT_RENDER_POS_X, curRenderPosY, INSTRUCTION_TEXT_FONT_SIZE, &CALIBRI_BOLD_FONT_PATH[0]);
+        renderText(renderer, curTextTexture, &mInstructionText[pageId][i][0], INSTRUCTION_TEXT_RENDER_POS_X, curRenderPosY, INSTRUCTION_TEXT_FONT_SIZE, &DOSIS_BOLD_FONT_PATH[0]);
         if (mInstructionText[pageId][i][0] == '-') curRenderPosY += curTextTexture.getHeight() + 15;
-        else curRenderPosY += curTextTexture.getHeight() + 10;
+        else curRenderPosY += curTextTexture.getHeight() + 5;
     }
 
     mImage.render(renderer, INSTRUCTION_TITLE_RENDER_POS_X, curRenderPosY, NULL, 2);
-    curRenderPosY += mImage.getHeight() + 10;
+    curRenderPosY += mImage.getHeight() + 5;
 
     mReturnButton.render(renderer);
     mPreviousButton.render(renderer);

@@ -21,7 +21,7 @@
 #include "ball.h"
 #include "spider.h"
 #include "levelMap.h"
-#include "miniMenu.h";
+#include "miniMenu.h"
 
 const int MINIMUM_LIFE_COUNT = 0;
 enum PLAY_LEVEL_EXIT_STATUS

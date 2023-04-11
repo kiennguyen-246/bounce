@@ -46,6 +46,8 @@ const std::string SPRITESHEET_PATH = "./img/spritesheet.png";
 
 const std::string CALIBRI_FONT_PATH = "./fonts/calibri.ttf";
 const std::string CALIBRI_BOLD_FONT_PATH = "./fonts/calibrib.ttf";
+const std::string DOSIS_FONT_PATH = "./fonts/Dosis-Regular.ttf";
+const std::string DOSIS_BOLD_FONT_PATH = "./fonts/Dosis-Bold.ttf";
 
 const std::string MAPCONFIG_PATH = "./data/mapConfig";
 const std::string LAST_LEVEL_DATA_PATH = "./data/lastLevel";

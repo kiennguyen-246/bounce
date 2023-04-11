@@ -18,7 +18,7 @@ void statusArea::renderScore(const int& score)
     std::string scoreStr = std::to_string(score);
     while (scoreStr.size() < 8) scoreStr = "0" + scoreStr;
     renderText(mRenderer, curTextTexture, &scoreStr[0], SCORE_RENDER_POS_X, SCORE_RENDER_POS_Y, 
-                STATUS_AREA_FONT_SIZE, &CALIBRI_FONT_PATH[0], SDL_COLOR_WHITE);
+                STATUS_AREA_FONT_SIZE, &DOSIS_FONT_PATH[0], SDL_COLOR_WHITE);
 }
 
 void statusArea::renderPortalsLeft(const int& portalsLeft)
@@ -26,7 +26,7 @@ void statusArea::renderPortalsLeft(const int& portalsLeft)
     LTexture curTextTexture;
     std::string portalsLeftInfo = std::to_string(portalsLeft) + "x";
     renderText(mRenderer, curTextTexture, &portalsLeftInfo[0], PORTALS_LEFT_TEXT_RENDER_POS_X, PORTALS_LEFT_TEXT_RENDER_POS_Y, 
-                STATUS_AREA_FONT_SIZE, &CALIBRI_FONT_PATH[0], SDL_COLOR_WHITE);
+                STATUS_AREA_FONT_SIZE, &DOSIS_FONT_PATH[0], SDL_COLOR_WHITE);
     mSpritesheet.render(mRenderer, PORTALS_LEFT_SPRITE_RENDER_POS_X, PORTALS_LEFT_SPRITE_RENDER_POS_Y, &mPortalSpriteClip, 2);
 }
 
@@ -35,7 +35,7 @@ void statusArea::renderLivesLeft(const int& livesLeft)
     LTexture curTextTexture;
     std::string livesInfo = std::to_string(livesLeft) + "x";
     renderText(mRenderer, curTextTexture, &livesInfo[0], LIVES_INFO_TEXT_RENDER_POS_X, LIVES_INFO_TEXT_RENDER_POS_Y, 
-                STATUS_AREA_FONT_SIZE, &CALIBRI_FONT_PATH[0], SDL_COLOR_WHITE);
+                STATUS_AREA_FONT_SIZE, &DOSIS_FONT_PATH[0], SDL_COLOR_WHITE);
     mSpritesheet.render(mRenderer, LIVES_INFO_BALL_SPRITE_RENDER_POS_X, LIVES_INFO_BALL_SPRITE_RENDER_POS_Y, &mBallSpriteClip, 2);
 }
 
@@ -47,7 +47,7 @@ void statusArea::renderLevelInfo(const int& levelId)
     LTexture curTextTexture;
     std::string levelInfo = "LEVEL " + std::to_string(levelId);
     renderText(mRenderer, curTextTexture, &levelInfo[0], LEVEL_INFO_TEXT_RENDER_POS_X, LEVEL_INFO_TEXT_RENDER_POS_Y, 
-                LEVEL_INFO_TEXT_FONT_SIZE, &CALIBRI_FONT_PATH[0], SDL_COLOR_WHITE);
+                LEVEL_INFO_TEXT_FONT_SIZE, &DOSIS_FONT_PATH[0], SDL_COLOR_WHITE);
 }
 
 void statusArea::renderGameOver()
@@ -58,7 +58,7 @@ void statusArea::renderGameOver()
     LTexture curTextTexture;
     std::string gameOverText = "GAME OVER";
     renderText(mRenderer, curTextTexture, &gameOverText[0], LEVEL_INFO_TEXT_RENDER_POS_X, LEVEL_INFO_TEXT_RENDER_POS_Y, 
-                LEVEL_INFO_TEXT_FONT_SIZE, &CALIBRI_FONT_PATH[0], SDL_COLOR_WHITE);
+                LEVEL_INFO_TEXT_FONT_SIZE, &DOSIS_FONT_PATH[0], SDL_COLOR_WHITE);
 }
 
 void statusArea::render(const int& livesLeft, const int& portalsLeft, const int& score, const bool& acceleratorActivated)
@@ -115,7 +115,7 @@ void playLevel::setLevelId(const int& id, const vector_2d_string& allLevelCharMa
 void playLevel::initSpiders(const std::vector <spiderInfo>& allLevelSpidersInfo)
 {
     mSpiderList.resize(allLevelSpidersInfo.size());
-    for (int i = 0; i < allLevelSpidersInfo.size(); i ++)
+    for (int i = 0; i < int(allLevelSpidersInfo.size()); i ++)
     {
         mSpiderList[i].init(allLevelSpidersInfo[i], mSpritesheet);
     }
@@ -221,7 +221,7 @@ void playLevel::tryMoveX(double& ballPosXBeforeMove, double& ballPosXAfterMove)
         }
     }
 
-    if (!slope)
+    // if (!slope)
     {
         mCurBlockObjectX = getBlockObject();
 
@@ -231,7 +231,7 @@ void playLevel::tryMoveX(double& ballPosXBeforeMove, double& ballPosXAfterMove)
         {
             mBall.undoMoveX();
             mBall.scaleX(mLevelMap.getFramePosX());
-            if (mBall.getVelocityX() != 0)
+            if (abs(mBall.getVelocityX()) > 1e-3)
             {
                 while (getBlockObject() == NOT_BLOCKED)
                 {
@@ -250,6 +250,8 @@ void playLevel::tryMoveX(double& ballPosXBeforeMove, double& ballPosXAfterMove)
         
 
     ballPosXAfterMove = mBall.getRealPosX();
+
+    // std::cout << "[playLevel.cpp] Ball position X after move: " << ballPosXAfterMove << "\n";
 
     mLevelMap.moveX(ballPosXAfterMove - ballPosXBeforeMove);
     mBall.scaleX(mLevelMap.getFramePosX());
@@ -306,7 +308,7 @@ void playLevel::tryMoveY()
         }
     }
 
-    if (!slope)
+    // if (!slope)
     {
         if (getBlockObject() != NOT_BLOCKED) 
         {

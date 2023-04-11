@@ -106,7 +106,7 @@ void redButton::set(SDL_Renderer* renderer, const int& x, const int& y, const st
 {
     mButtonTexture.loadTexture(renderer, &RED_BUTTON_PATH[0]);
     LButton::set(x, y, RED_BUTTON_WIDTH, RED_BUTTON_HEIGHT);
-    setText(renderer, text, RED_BUTTON_TEXT_FONT_SIZE, &CALIBRI_FONT_PATH[0], SDL_COLOR_WHITE);
+    setText(renderer, text, RED_BUTTON_TEXT_FONT_SIZE, &DOSIS_BOLD_FONT_PATH[0], SDL_COLOR_WHITE);
 }
 
 blueButton::blueButton()
