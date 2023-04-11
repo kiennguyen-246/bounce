@@ -1,5 +1,5 @@
 # Bounce Classic Remake
-Version: 1.0
+Version: 1.1
 
 ## Overview
 Have you ever played this legendary game on Nokia 1280? 
