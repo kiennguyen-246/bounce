@@ -1,5 +1,5 @@
 # Bounce Classic Remake
-Version: 1.1
+Version: 1.2
 
 ## Overview
 Have you ever played this legendary game on Nokia 1280? 
@@ -16,7 +16,7 @@ game.
 
 Hope this low-cost SDL remake will somehow bring you back to that memory. (of course only if you have played this game before)
 
-## Installing (Windows)
+## Installing
 
 **Step 1**: Install [`Mingw-w64`](https://sourceforge.net/projects/mingw-w64/files/). While this game was being made, we used `GCC-7.3.0 i686-posix-sjlj`.
 
@@ -28,19 +28,17 @@ Hope this low-cost SDL remake will somehow bring you back to that memory. (of co
 [`SDL2_image`](https://github.com/libsdl-org/SDL_image/releases/tag/release-2.6.3), 
 [`SDL2_ttf`](https://github.com/libsdl-org/SDL_ttf/releases/tag/release-2.20.2). 
 
-- Follow the Lazyfoo's instruction (on SDL2 category), but save those folders to `C:\MinGW32` instead of `C:\mingw_dev_lib\`.
+- Follow the [Lazyfoo's instruction](https://lazyfoo.net/tutorials/SDL/01_hello_SDL/index.php) to install those more easily.
 
-- If you have installed and/or used SDL before, just move or copy the `include`, `bin`, `lib` folders to `C:\MinGW32`
-
-- If you know how to use Makefile's, editing `INCLUDE_PATHS` and `LIBRARY_PATHS` is an available option.
+- Edit sources/Makefile based on the suggestions.
 
 **Step 3**: Install [`GNU MAKE`](https://stackoverflow.com/a/57042516/21271990).
 
 - If you have used mingw-make before or having Codeblocks with MinGW32 setup, skip this step.
 
-**Step 4**: Clone this repo. You may play the game directly, or use `installer.bat` to setup the game.
+**Step 4**: Clone this repo. Change directory to `sources` and use the command `mingw32-make` (Windows) or `make` (Linux)
 
-- If none of those works, change directory to `sources` and use the command `mingw-make`
+- You may use `installer.bat` (Windows only) to quickly setup the game.
 
 **Step 5**: Enjoy the game. 
 
