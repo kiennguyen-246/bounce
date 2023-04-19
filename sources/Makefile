@@ -1,4 +1,4 @@
-OBJS = main.cpp game.cpp base.cpp playLevel.cpp ball.cpp levelMap.cpp checkpoint.cpp spike.cpp portal.cpp brickTile.cpp finishLine.cpp lifeball.cpp pump.cpp shrinker.cpp spider.cpp trampolineTile.cpp waterloggedTile.cpp accelerator.cpp slopeTile.cpp mainMenu.cpp buttons.cpp miniMenu.cpp
+OBJS = main.cpp game.cpp base.cpp playLevel.cpp ball.cpp levelMap.cpp checkpoint.cpp spike.cpp portal.cpp brickTile.cpp finishLine.cpp lifeBall.cpp pump.cpp shrinker.cpp spider.cpp trampolineTile.cpp waterloggedTile.cpp accelerator.cpp slopeTile.cpp mainMenu.cpp buttons.cpp miniMenu.cpp
 
 CC = g++ -std=c++17
 

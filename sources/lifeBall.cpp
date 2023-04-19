@@ -1,5 +1,5 @@
 // lifeBall.cpp
-#include "lifeball.h"
+#include "lifeBall.h"
 
 lifeBall::lifeBall(/* args */)
 {

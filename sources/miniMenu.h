@@ -3,14 +3,6 @@
 #ifndef MINIMENU_GUARD
 #define MINIMENU_GUARD
 
-#include <iostream>
-#include <string>
-#include <fstream>
-#include <windows.h>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 #include "buttons.h"
 
