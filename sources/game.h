@@ -6,12 +6,21 @@
 #include <vector>
 #include <string>
 #include <fstream>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
 #include "base.h"
 #include "mainMenu.h"
 #include "playLevel.h"
+
+#ifdef _WIN32
+#include <sdl.h>
+#include <SDL_image.h>
+#include <SDL_ttf.h>
+#include <SDL_mixer.h>
+#else
+#include <SDL/SDL.h>
+#include <SDL/SDL_image.h>
+#include <SDL/SDL_ttf.h>
+#include <SDL/SDL_mixer.h>
+#endif //__WIN32
 
 /**
  * @brief This file will control the working logic of the game, like starting page, levels

@@ -21,11 +21,6 @@
 #ifndef BALL_GUARD
 #define BALL_GUARD
 
-#include <iostream>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 
 const double SMALL_BALL_VELOCITY_X_DEFAULT = 10.5;     //unit: pixel/frame

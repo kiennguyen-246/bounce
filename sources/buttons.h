@@ -3,12 +3,6 @@
 #ifndef BUTTONS_GUARD
 #define BUTTONS_GUARD
 
-#include <iostream>
-#include <vector>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 
 const std::string RED_BUTTON_PATH = "./img/redButton.png";

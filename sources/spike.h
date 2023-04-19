@@ -12,11 +12,6 @@
 #ifndef ENEMY_GUARD
 #define ENEMY_GUARD
 
-#include <iostream>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 
 const int SPIKE_SPRITE_POS_x = 891;   //position in spritesheet

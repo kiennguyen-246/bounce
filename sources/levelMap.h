@@ -13,14 +13,6 @@
 #ifndef LEVELMAP_GUARD
 #define LEVELMAP_GUARD
 
-#include <iostream>
-#include <vector>
-#include <fstream>
-#include <string>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 #include "ball.h"
 #include "brickTile.h"

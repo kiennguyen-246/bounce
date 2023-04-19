@@ -13,11 +13,6 @@
 #ifndef CHECKPOINT_GUARD
 #define CHECKPOINT_GUARD
 
-#include <iostream>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 #include "ball.h"
 

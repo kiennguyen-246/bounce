@@ -10,13 +10,6 @@
 
 #define CODE787898 0
 
-#include <iostream>
-#include <string>
-#include <windows.h>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 #include "ball.h"
 #include "spider.h"

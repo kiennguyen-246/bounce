@@ -8,11 +8,6 @@
 #ifndef BRICKTILE_GUARD
 #define BRICKTILE_GUARD
 
-#include <iostream>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 
 const int BRICK_TILE_SPRITE_POS_x = 85;   //position in spritesheet

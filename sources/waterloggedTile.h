@@ -13,11 +13,6 @@
 #ifndef WATERLOGGEDTILE_GUARD
 #define WATERLOGGEDTILE_GUARD
 
-#include <iostream>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 
 const int WATERLOGGED_TILE_SPRITE_POS_x = 295;   //position in spritesheet

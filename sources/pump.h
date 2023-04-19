@@ -11,11 +11,6 @@
 #ifndef PUMP_GUARD
 #define PUMP_GUARD
 
-#include <iostream>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 
 const int PUMP_SPRITE_POS_x = 559;   //position in spritesheet

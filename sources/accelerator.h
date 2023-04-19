@@ -8,11 +8,6 @@
 #ifndef ACCELERATOR_GUARD
 #define ACCELERATOR_GUARD
 
-#include <iostream>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 
 const int ACCELERATOR_SPRITE_POS_x = 517;   //position in spritesheet

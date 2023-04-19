@@ -11,10 +11,22 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <fstream>
+#include <string>
+#include <cmath>
+
+#ifdef _WIN32
 #include <sdl.h>
 #include <SDL_image.h>
 #include <SDL_ttf.h>
 #include <SDL_mixer.h>
+#else
+#include <SDL/SDL.h>
+#include <SDL/SDL_image.h>
+#include <SDL/SDL_ttf.h>
+#include <SDL/SDL_mixer.h>
+#endif //__WIN32
+
 
 typedef std::vector <std::vector <std::string> > vector_2d_string;
 typedef std::vector <std::vector <std::pair <std::pair <int, int>, std::pair <int, int> > > > vector_2d_pair_of_pii;

@@ -12,11 +12,6 @@
 #ifndef PORTAL_GUARD
 #define PORTAL_GUARD
 
-#include <iostream>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 
 const int PORTAL_HORIZONTAL_DEFAULT_SPRITE_POS_x = 767;   //position in spritesheet

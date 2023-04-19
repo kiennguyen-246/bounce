@@ -12,11 +12,6 @@
 #ifndef FINISHLINE_GUARD
 #define FINISHLINE_GUARD
 
-#include <iostream>
-#include <sdl.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
 #include "base.h"
 
 const int FINISH_LINE_CLOSED_SPRITE_POS_x = 1;   //position in spritesheet
