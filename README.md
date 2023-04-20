@@ -55,7 +55,7 @@ To view my detailed progress to develop this game, visit my [practice repo folde
 Special thanks to [anish-g](https://github.com/anish-g) for the game assets.
 
 ## Ingame Footage
-![mainmenu](https://github.com/kiennguyen2464/bounce/blob/main/demo/MainMenu.png?raw = true)
-![ingame1](https://github.com/kiennguyen2464/bounce/blob/main/demo/Ingame1.png?raw = true)
-![ingame2](https://github.com/kiennguyen2464/bounce/blob/main/demo/Ingame2.png?raw = true)
-![ingame3](https://github.com/kiennguyen2464/bounce/blob/main/demo/Ingame3.png?raw = true)
+![mainmenu](https://github.com/kiennguyen2464/bounce/blob/main/demo/MainMenu.png?raw=true)
+![ingame1](https://github.com/kiennguyen2464/bounce/blob/main/demo/Ingame1.png?raw=true)
+![ingame2](https://github.com/kiennguyen2464/bounce/blob/main/demo/Ingame2.png?raw=true)
+![ingame3](https://github.com/kiennguyen2464/bounce/blob/main/demo/Ingame3.png?raw=true)
