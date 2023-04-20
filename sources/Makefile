@@ -21,7 +21,7 @@ LINKER_FLAGS = -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
 #Windows
 OBJ_NAME = ..\bounce.exe
 #Linux
-#OBJ_NAME = ..\bounce.exe
+#OBJ_NAME = ../bounce.exe
 
 all : $(OBJS)
 	$(CC) $(OBJS) $(INCLUDE_PATHS) $(LIBRARY_PATHS) $(COMPILER_FLAG) $(LINKER_FLAGS) -o $(OBJ_NAME)
