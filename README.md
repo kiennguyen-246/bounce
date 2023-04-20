@@ -36,6 +36,8 @@ Hope this low-cost SDL remake will somehow bring you back to that memory. (of co
 
 - If you have used mingw-make before or having Codeblocks with MinGW32 setup, skip this step.
 
+- If you use Windows, you may need to add `bin` directory from MinGW folder to `Path` in Windows System Variables.
+
 **Step 4**: Clone this repo. Change directory to `sources` and use the command `mingw32-make` (Windows) or `make` (Linux)
 
 - You may use `installer.bat` (Windows only) to quickly setup the game.
@@ -51,3 +53,9 @@ Most of the source code for the game was created by me - kiennguyen246 (because 
 To view my detailed progress to develop this game, visit my [practice repo folder](https://github.com/kiennguyen2464/learnSDL/tree/main/bounce).
 
 Special thanks to [anish-g](https://github.com/anish-g) for the game assets.
+
+## Ingame Footage
+![mainmenu](https://github.com/kiennguyen2464/bounce/blob/main/demo/MainMenu.png?raw = true)
+![ingame1](https://github.com/kiennguyen2464/bounce/blob/main/demo/Ingame1.png?raw = true)
+![ingame2](https://github.com/kiennguyen2464/bounce/blob/main/demo/Ingame2.png?raw = true)
+![ingame3](https://github.com/kiennguyen2464/bounce/blob/main/demo/Ingame3.png?raw = true)
