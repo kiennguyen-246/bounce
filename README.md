@@ -38,9 +38,9 @@ Hope this low-cost SDL remake will somehow bring you back to that memory. (of co
 
 - If you use Windows, you may need to add `bin` directory from MinGW folder to `Path` in Windows System Variables.
 
-**Step 4**: Clone this repo. Change directory to `sources` and use the command `mingw32-make` (Windows) or `make` (Linux)
+**Step 4**: Clone this repo. Change directory to `sources` and use the command `mingw32-make` (Windows) or `make -f Makefile_Linux` (Linux)
 
-- You may use `installer.bat` (Windows only) or `installer.sh` to quickly setup the game (significant chance to fail).
+- You may use `installer.bat` (Windows only) or `installer.sh` to quickly setup the game (significantly high chance to fail).
 
 **Step 5**: Enjoy the game. 
 
